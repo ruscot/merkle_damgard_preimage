@@ -1,1 +1,2 @@
 # merkle_damgard_preimage
+Implement a generic second preimage attack for long message for Merkle-Damgard hash function in the specific case where the compression function used within the hash function follows a Davies Meyer construction.

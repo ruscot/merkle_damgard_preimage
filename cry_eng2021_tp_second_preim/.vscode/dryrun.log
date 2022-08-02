@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bebou/Documents/CryptoHack/TPMerkleDamgardPreIm/cry_eng2021_tp_second_preim'
+gcc -Wall -O3 -march=native    second_preim_48_fillme.c   -o second_preim_48_fillme
+make: Leaving directory '/home/bebou/Documents/CryptoHack/TPMerkleDamgardPreIm/cry_eng2021_tp_second_preim'
+ 
