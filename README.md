@@ -32,8 +32,8 @@ This is our algorithm :
 table <− HashTable
 for i in range 1 to 9000000:
     m1 <− random message
-    h <− cs48_dm (m1, IV)
-    store(table , m1, h)
+    h <− cs48_dm(m1, IV)
+    store(table, m1, h)
 while true:
     m2 <− random message
     h <− get_cs48_dm_fp(m2)
