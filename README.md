@@ -57,7 +57,7 @@ table <− HashTable
 for submessage in message:
     key <− cs48_dm(test , key)
     store(table, m1, key)
-//Now we f i n d an e x p e n d a b l e message
+//Now we find an expendable message
 m1 <− uint32_t
 m2 <− uint32_t
 find_exp_mess(m1, m2)
